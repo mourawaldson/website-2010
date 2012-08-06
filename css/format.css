@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+* { font-family: "Panic Sans", "Lucida Sans", Verdana, Arial, Tahoma, sans-serif; color:#444; }
+html { overflow-y: scroll; }
+
+#content { padding:2% 0 0 2%; letter-spacing:1px;}
+
+h1 { position: absolute; top: 20px; right: 20px; font-size: 4em; }
+/*h1 { background: url(../img/) no-repeat; text-indent: -4000px; overflow: hidden; width: 200px; height: 40px }*/
+
+h2 { font-size: 0.75em; padding: 10px 0; }
+
+#nav { height:80px; width:180px; }
+#nav li{ padding-top:3px; font-weight:bold; text-transform:uppercase; letter-spacing:0; font-size:0.8em; }
+#nav li a { background:#444; color:#fff; }
+#nav li .active { border-left:4px solid #fc0; }
+
+a{ color:#000; padding:3px; background-color:#e0e0e0; text-decoration:none; }
+a:hover{ text-decoration:underline; }
+
+#listaConhecimento dt{ float:left; clear:both; padding-right:5px; font-weight:bold; }
+
+.projetos { float:left; padding-bottom: 10px; }
+.projetos li, p, dt, dd { font-size:0.65em; padding-bottom:10px; line-height:1.8em; }
+.projetos li a { font-size:1em; }
+.projetos h3 { font-weight:bold; padding-bottom:10px; font-size:0.8em; }
+.profissionalmente { padding-right:2%; }
+
+#context { width:600px; }
+
+#frmContato { margin:0 0 40px 0; width:258px; float:left; }
+#frmContato label { display:block; margin:0 0 2px 2px; font-size:0.7em; }
+#frmContato .campo { border:1px solid #000; font-size:0.7em; padding:3px; background:#fff; display:block; margin:0 0 10px 0; width:250px; }
+.botao{ float:left; padding:4px 6px; border:none; color:#fff; background-color:#444; font-size:0.7em; }
+.textarea { width:250px; height:100px; }
+#resposta { float:left; padding:4px 0 0 15px; }
